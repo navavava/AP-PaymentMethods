@@ -4,9 +4,9 @@ public class CreditCardPayment implements PaymentStrategy {
     String cardNumber;
     String cardHolderName;
 
-    public CreditCardPayment(String cardNumber, String cardHoldNumber) {
+    public CreditCardPayment(String cardNumber, String cardHolderName) {
         this.cardNumber = cardNumber;
-        this.cardHolderName = cardHoldNumber;
+        this.cardHolderName = cardHolderName;
     }
 
     @Override
